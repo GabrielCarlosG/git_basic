@@ -2,49 +2,49 @@ https://git-scm.com/book/pt-br/v1
 https://caiojcarvalho.wordpress.com/2017/07/22/definindo-usuario-e-senha-padrao-no-git/
 
 git init
-	Inicia um repositório Git
+	Inicia um repositï¿½rio Git
 
 git status
-	Exibe informação sobre o ramo atual e status do repositório Git
+	Exibe informaï¿½ï¿½o sobre o ramo atual e status do repositï¿½rio Git
 
 git add arquivo.txt
-	Adiciona todos os arquivos do diretório	
+	Adiciona todos os arquivos do diretï¿½rio	
 
 git add -A
-	Adiciona todos os arquivos do diretório
+	Adiciona todos os arquivos do diretï¿½rio
 
 git reset arquivo.txt
 	Remove somento este item do git add
 
 git reset
-	Remove todos os arquivos e diretórios do git add
+	Remove todos os arquivos e diretï¿½rios do git add
 
 git config user.email "matheusjohannaraujo@gmail.com"
-	Configura um email padrão para o repositório
+	Configura um email padrï¿½o para o repositï¿½rio
 
 git config user.name "matheusjohannaraujo"
-	Configura um nome de usuário padrão para o repositório
+	Configura um nome de usuï¿½rio padrï¿½o para o repositï¿½rio
 
-git commit -m "Informação do commit"
-	Registra alterações do projeto local
+git commit -m "Informaï¿½ï¿½o do commit"
+	Registra alteraï¿½ï¿½es do projeto local
 
 git commit --amend
 	Desfaz o ultimo commit
 
 git log
-	Exibe os logs dos commits e outras informações
+	Exibe os logs dos commits e outras informaï¿½ï¿½es
 
 git remote add origin https://bitbucket.org/matheusjohannaraujo/testes.git
-	Adiciona repositório remoto
+	Adiciona repositï¿½rio remoto
 
 git remote -v
-	Exibe o repositório remoto do projeto
+	Exibe o repositï¿½rio remoto do projeto
 
 git push -u origin master
-	Envia os arquivos para o repositório remoto
+	Envia os arquivos para o repositï¿½rio remoto
 
 git branch nome-do-ramo
-	Cria um novo ramo, o ramo principal é o master
+	Cria um novo ramo, o ramo principal ï¿½ o master
 
 git brach
 	Lista os ramos existentes e qual deles esta selecionado
@@ -62,22 +62,22 @@ git branch -d nome-do-ramo
 	Exclui o ramo "nome-do-ramo"
 
 git checkout -- arquivo.txt
-	Desfaz alterações no arquivo, CTRL+Z
+	Desfaz alteraï¿½ï¿½es no arquivo, CTRL+Z
 
 git stash
-	Esconde alterações
+	Esconde alteraï¿½ï¿½es
 
 git stash list
-	Lista as alterações escondidas
+	Lista as alteraï¿½ï¿½es escondidas
 
 git stach apply stash@{0}
-	Exibe novamente as alterações
+	Exibe novamente as alteraï¿½ï¿½es
 
 git stash drop stach@{0}
-	Exclui alteração escondida
+	Exclui alteraï¿½ï¿½o escondida
 
 git pull origin
-	Puxa as alterações de repositório onlide para o repositório local
+	Puxa as alteraï¿½ï¿½es de repositï¿½rio onlide para o repositï¿½rio local
 
 git clone https://bitbucket.org/matheusjohannaraujo/testes.git
-	Baixo um repositório remoto para o computador local
+	Baixo um repositï¿½rio remoto para o computador local
