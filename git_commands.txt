@@ -46,7 +46,7 @@ git push -u origin master
 git branch nome-do-ramo
 	Cria um novo ramo, o ramo principal é o master
 
-git brach
+git branch
 	Lista os ramos existentes e qual deles esta selecionado
 
 git checkout nome-do-ramo
